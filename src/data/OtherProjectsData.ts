@@ -1,106 +1,79 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-6", "Sultans Of Sing", "img/projects/project-6-icon.png", `
+    new ProjectData("eye-tracking-extension", "Eye-Tracking Web Accessibility Extension", "img/projects/eye-tracking-icon.png", 
+    `
     <div class="paragraph">
-      <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
-      <br/>Image by <a href="https://www.pexels.com/fr-fr/@aldoalz" target="blank">Aldo Picaso</a>.
-            </div>
-            <div class="paragraph center">
-              <a href="https://www.microsoft.com/en-us/p/some-app" target="_blank"><img src="img/projects/ms-store-logo.png" alt="MS Store button" /></a>
-          </div>
+     <strong>Senior Developer</strong> | Jan 2025 - Apr 2025
+     <br/>A Google Chrome extension designed to enable hands-free website navigation for users with limited mobility. Built on WebGazer.js, it translates real-time ocular data into system-level mouse interactions.
+    </div>
 
-          <div class="paragraph">
-            Main features :
-            <ul>
-            <li>Some stuff</li>
-            <li>Some great stuff</li>
-            <li>More awesome stuff</li>
-            <li>And then some</li>
-            </ul>
-        </div>
-
-        <div class="paragraph center">
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
-        </div>
-    `, "#c10606", false, true),
-    new ProjectData("project-7", "Drew Blood", "img/projects/project-7-icon.png", `
     <div class="paragraph">
-                <strong>Drew Blood</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-                <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@karolina-grabowska">Karolina Grabowska</a>.
-            </div>
-
-            <div class="paragraph">
-              Main features :
-              <ul>
-              <li>Some stuff</li>
-              <li>Some great stuff</li>
-              <li>More awesome stuff</li>
-              <li>And then some</li>
-              </ul>
-          </div>
-
-            <div class="paragraph">
-              <div class="notice">
-                You can download and try the app for free or purchase it directly from <a href="http://www.somewbsite.com/" target="_blank">Some website</a>
-              </div>
-            </div>
-
-            <div class="paragraph center">
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" /> 
-            </div>`, "#1ca1e2"),
-    new ProjectData("project-8", "The Art of Walking", "img/projects/project-8-icon.png", `
-    <div class="paragraph">
-                <strong>The Art of Walking</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-            </div>
-
-            <div class="paragraph center">
-              <a href="https://play.google.com/store/apps/details?id=someapp" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-          </div>
-
-          <div class="paragraph">
-          Main features :
-          <ul>
-          <li>Some stuff</li>
-          <li>Some great stuff</li>
-          <li>More awesome stuff</li>
-          <li>And then some</li>
-          </ul>
-      </div>
-
-            <div class="paragraph">
-              <div class="notice">
-                Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-              </div>
-            </div>
-
-            <div class="paragraph center">
-                <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-                <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-            </div>`),
-    new ProjectData("project-9", "Nikolable", "img/projects/project-9-icon.png", `
-     <div class="paragraph">
-                <strong>Nikolable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-                <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@goumbik">Lukas</a>.
-            </div>
-
-            <div class="paragraph">
-        Main features :
+        Key Contributions:
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li><strong>Architecture & DevOps:</strong> Established the project repository and a robust Git branching strategy for stable feature integration.</li>
+        <li><strong>API Integration:</strong> Technical lead for integrating WebGazer.js to capture and process real-time gaze data within the browser.</li>
+        <li><strong>Full-Stack Mouse Control:</strong> Developed a Python-based server that translates browser gaze coordinates into system-level movements.</li>
+        <li><strong>Precision Engineering:</strong> Implemented a data persistence layer to maintain user calibration settings across multiple sessions.</li>
+        <li><strong>Optimization:</strong> Improved cursor accuracy and normalized responsiveness by refining event-handling logic and custom delay adjustments.</li>
         </ul>
     </div>
 
-            <div class="paragraph">
-              <div class="notice">
-                Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-              </div>
-            </div>`),
+    <div class="paragraph">
+        <div class="notice">
+            Built with JavaScript, HTML, Python, and WebGazer.js. Focused on UX and Accessibility.
+        </div>
+    </div>
+    `, "#1ca1e2", true),
+
+    new ProjectData("job-connect-android", "Quick Cash", "img/projects/android-icon.png", `
+    <div class="paragraph">
+        <strong>Android Developer</strong> | Jan 2025 - Mar 2025
+        <br/>A dual-sided Android application for the gig economy, connecting employers with local job seekers for quick, task-based work.
+    </div>
+
+    <div class="paragraph">
+        Key Contributions:
+        <ul>
+        <li><strong>Google Maps Integration:</strong> Integrated Google Maps API to allow users to view job locations via interactive map markers with detailed job snippets.</li>
+        <li><strong>Authentication & Security:</strong> Implemented Firebase-backed secure login, user registration (Role-based), and a complete "Forgot Password" recovery workflow.</li>
+        <li><strong>Notification System:</strong> Developed automated push notifications to alert employees when new jobs matching their preferred list are posted.</li>
+        <li><strong>Application Workflow:</strong> Built a comprehensive job application system, allowing users to view detailed requirements and attach resumes directly.</li>
+        <li><strong>Dashboard & UI:</strong> Designed a role-based dashboard with standardized navigation and a "Preferred Employee/Job" list for persistent user preferences.</li>
+        </ul>
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+            Built with Android Studio, Firebase, Google Maps API, and Payment APIs.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Map View Screenshot" />
+        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Dashboard Screenshot" />
+    </div>
+    `, "#383838"),
+    new ProjectData("dal-student-guide", "GuidetoDalonline", "img/projects/dal-guide-icon.png", `
+    <div class="paragraph">
+        <strong>UX Researcher & Frontend Developer</strong> | [Insert Dates]
+        <br/>Collaborated in an Agile team to design and develop a comprehensive web-based guide tailored for incoming Dalhousie University students.
+    </div>
+
+    <div class="paragraph">
+        Key Contributions:
+        <ul>
+        <li><strong>User Requirement Analysis:</strong> Conducted initial research to identify the pain points of new students, translating these needs into functional website requirements.</li>
+        <li><strong>Agile Methodology:</strong> Participated in structured sprints, including planning, backlog prioritization, and iterative development cycles. </li>
+        <li><strong>Frontend Development:</strong> Built responsive and accessible web layouts using clean HTML5 and CSS3, ensuring a seamless experience across different devices.</li>
+        <li><strong>Collaborative Design:</strong> Worked closely with team members to ensure design consistency and information architecture aligned with Dalhousie’s branding and student needs.</li>
+        </ul>
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+            Built with HTML5, CSS3, and Git. Focused on Agile Project Management and UX Research.
+        </div>
+    </div>
+    `, "#248232")
 ];

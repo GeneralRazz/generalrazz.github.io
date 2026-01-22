@@ -42,6 +42,23 @@
       <div>Improved data accuracy by updating 200+ invoices and ensured high-demand items were consistently available through efficient inventory coordination.</div>
       <div class="tech-stack">Inventory Management, Data Accuracy, Customer Service</div>
 
+      <h2>Volunteer Experience</h2>
+
+      <h3>Social Media Representitive - Dalhousie Esports Society</h3>
+      <h4>May 2024 – Present</h4>
+      <div>Conducted interviews with team members, players, or guests for Instagram to engage the community and highlight key personalities.<br>
+      Created and posted engaging content for Twitter, including updates, match results, announcements, and promotional material.
+      Promoted society events, such as tournaments, tryouts, and community meetups, on social media platforms.</div>
+      <div class="tech-stack">Social Media, Content Creation, Community Engagement</div>
+
+      <h3>Counter-Strike Player - Dalhousie Esports Society</h3>
+      <h4>Jan 2023 – Present</h4>
+      <div>2025-2026: Dal Tigers(IGL)<br>
+            2024-2025: Dal Tigers<br>
+            2023-2024: Dal Gold<br>
+            2022-2023: Dal Black (Sub)
+            </div>
+      <div class="tech-stack">Leadership, Team Management, Strategy</div>
       <h2>Skills</h2>
 
       <div class="skill-set">
@@ -76,8 +93,8 @@
 
       <h2>Besides...</h2>
       <div>
-        <h3>I ❤️ Accessibility</h3>
-        <div>I served as a Senior Developer on an accessibility-focused project, prioritizing inclusive design and problem-solving.</div>
+        <h3>I ❤️ Esports</h3>
+        <div>I served as a player and manager on Dalhousie's Counter-Strike team, prioritizing teamwork and strategy.</div>
 
         <h3>I 🧡 Collaboration</h3>
         <div>I thrive in agile team environments and have a proven ability to coordinate with team members to achieve inventory and service goals.</div>
