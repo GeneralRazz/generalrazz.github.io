@@ -1,20 +1,20 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+    <h1>Hey There!</h1>
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Zaki</strong>, a Dal Student in his last semester doing applied computer science and user experience design.<br/>
+        I spend my working on Uni stuff and being the in-game leader of Dal's Counter-Strike 2 team.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">game projects</router-link>, on <router-link to="/other-projects">other uni stuff</router-link>, and did <router-link to="/resume">a bunch of other things</router-link> as well.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">I'm <strong>looking land a job</strong> as a Gameplay Programmer, Game UX Designer/UI Programmer. You can reach me at <a href="mailto:mohammedzaksaj@gmail.com">mohammedzaksaj@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/avatar.png" alt="Avatar of Zaki" /> 
     </div>
 
     <div style="clear:both"></div>

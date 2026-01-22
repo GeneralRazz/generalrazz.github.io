@@ -3,24 +3,23 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
+      I'm <strong>Mohammed Zaki</strong>, a motivated and adaptable Bachelor of Applied Computer Science student at Dalhousie University. 
+      <br />With a solid foundation in Java, C#, and JavaScript, I specialize in web and mobile development using tools like React and Android Studio.
+      <br />I have demonstrated strong problem-solving and teamwork skills, notably serving as a Senior Developer on an accessibility-focused project.
+      <br />I bring a blend of technical expertise in SDLC and UI/UX with a proven track record in customer-facing roles.
       <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
+      <br />I am currently seeking opportunities to apply my technical skills and leadership experience in a professional software development environment. If you have an opportunity, feel free to 
       <router-link to="/contact">contact me</router-link>.
       <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+      <br />Besides coding, I am passionate about UI/UX design, games, and collaborative problem-solving.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <a class="download-link" href="#" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a>
         <div style="clear:both"></div>
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img src="img/avatar-og.png" alt="Photo of Zaki" />
     </div>
 
     <div style="clear:both"></div>
@@ -28,78 +27,63 @@
     <div class="full-content">
       <h2>Work experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <h3>IT Analyst Intern - Air Arabia</h3>
+      <h4>May 2025 – Aug 2025</h4>
+      <div>Provided attentive, personalized technical support and delivered clear software demonstrations to staff across multiple departments.</div>
+      <div class="tech-stack">Technical Support, Software Demos, Cross-departmental Collaboration</div>
 
-      <div>It's classified so I can't speak about it.</div>
+      <h3>Marketing Representative - Wizeprep</h3>
+      <h4>Oct 2024 – Mar 2025</h4>
+      <div>Achieved sales targets by 15% through direct engagement and strengthened student trust by addressing inquiries in-person.</div>
+      <div class="tech-stack">Sales Strategy, Brand Awareness, Relationship Building</div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <h3>Summer Associate - Buy Fresh Hypermarket</h3>
+      <h4>May – August 2024</h4>
+      <div>Improved data accuracy by updating 200+ invoices and ensured high-demand items were consistently available through efficient inventory coordination.</div>
+      <div class="tech-stack">Inventory Management, Data Accuracy, Customer Service</div>
 
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <h3>Technical</h3>
+        <SkillRate name="Java / C#" :rate="4" />
+        <SkillRate name="JavaScript / React" :rate="4" />
+        <SkillRate name="HTML / CSS" :rate="5" />
+        <SkillRate name="Android Studio" :rate="4" />
+        <SkillRate name="Unit Testing" :rate="3" />
       </div>
 
       <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <h3>Professional</h3>
+        <SkillRate name="Customer Service" :rate="5" />
+        <SkillRate name="Team Leadership" :rate="4" />
+        <SkillRate name="Problem Solving" :rate="5" />
+        <SkillRate name="Communication" :rate="5" />
       </div>
       <div style="clear:both" />
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h3>Dalhousie University - 2022-2026</h3>
+      <h4>Bachelor of Applied Computer Science</h4>
+      <h4>Certificate in User Experience Design and Evaluation</h4>
+      <div>CGPA: 3.35 | Expertise in Project Management, UI/UX, and Game Development.</div>
 
       <h2>Languages</h2>
 
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
-
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
-
+      <h3>English</h3>
+      <div>Fluent with strong written and verbal communication developed through help desk and customer engagement.</div>
 
       <h2>Besides...</h2>
       <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
+        <h3>I ❤️ Accessibility</h3>
+        <div>I served as a Senior Developer on an accessibility-focused project, prioritizing inclusive design and problem-solving.</div>
 
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
+        <h3>I 🧡 Collaboration</h3>
+        <div>I thrive in agile team environments and have a proven ability to coordinate with team members to achieve inventory and service goals.</div>
 
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
-
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
-
+        <h3>I 💛 Innovation</h3>
+        <div>I am constantly learning new frameworks like React Native and Expo to build modern, component-based mobile applications.</div>
       </div>
     </div>
   </div>
