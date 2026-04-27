@@ -7,10 +7,6 @@
 
     <ul>
       <li>
-        <i class="fa fa-user-circle-o fa-lg fa-fw"></i>
-        <a href="http://mywebsite.com" target="_blank">https://mywebsite.com</a>
-      </li>
-      <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
         <a href="mailto:mohammedzaksaj@gmail.com" target="_blank">mohammedzaksaj@gmail.com</a>
       </li>

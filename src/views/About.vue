@@ -4,17 +4,17 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>Zaki</strong>, a final-year Applied Computer Science student at Dalhousie University specializing in User Experience Design.<br/>
+        I'm <strong>Zaki</strong>, an Applied Computer Science graduate from Dalhousie University specializing in User Experience Design.<br/>
         I balance my time between advanced academic projects and serving as the In-Game Leader for Dalhousie’s Counter-Strike 2 varsity team
       </div>
 
-      <div style="margin-top: 20px;">I've been part of numerous <router-link to="/game-projects">game projects</router-link>, contributed to <router-link to="/other-projects">other uni projects</router-link>, and did <router-link to="/resume">a bunch of other things</router-link> as well.</div>
+      <div style="margin-top: 20px;">I've been part of numerous <router-link to="/game-projects">game projects</router-link>, contributed to <router-link to="/other-projects">other projects</router-link>, and did <router-link to="/resume">a bunch of other things</router-link> as well.</div>
 
       <div style="margin-top: 40px;">I am currently <strong>seeking opportunities</strong> as a Gameplay Programmer, Game UX Designer/UI Programmer. You can reach me at <a href="mailto:mohammedzaksaj@gmail.com">mohammedzaksaj@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of Zaki" /> 
+      <img src="img/2-circle.png" alt="Avatar of Zaki" style="width: 350px; height: 350px;" /> 
     </div>
 
     <div style="clear:both"></div>
@@ -42,6 +42,7 @@
     float: left;
     padding: 10px;
     padding-left: 80px;
+    
   }
 }
 

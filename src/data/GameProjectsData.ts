@@ -1,7 +1,8 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("ggj-launcher", "Global Game Jam Launcher", "img/projects/ggj-icon.png", 
+    
+    new ProjectData("ggj-launcher", "Global Game Jam Launcher", "img/gjj/1.jpg", 
     `
     <div class="paragraph">
      <strong>Development Director</strong> | Oct 2025 - Dec 2025
@@ -23,10 +24,30 @@ export default [
         <div class="notice">
             Built with Unity. Focused on Project Management, Team Leadership, and Client Relations.
         </div>
-    </div>
-    `, "#23bd69", true),
+        <div class="paragraph center">
+        <video class="pc-screenshot" autoplay loop controls playsinline>
+        <source src="/img/gjj/Demo.mp4" type="video/mp4" />
+    </video>
 
-    new ProjectData("reflection", "REFLECTION", "img/projects/reflection-icon.png", `
+    </div>
+    <div class="paragraph center">
+    
+    <img class="pc-screenshot" src="/img/gjj/1.jpg" alt="Main Menu" />
+    
+    </div>
+    
+    <div class="paragraph center">
+        <video class="pc-screenshot" autoplay loop muted playsinline>
+        <source src="/img/gjj/1.mp4" type="video/mp4" />
+    </video>
+    </div>
+    
+
+
+    
+    `, "#bd2323"),
+
+    new ProjectData("reflection", "REFLECTION", "/img/Reflection/Picture1.png", `
     <div class="paragraph">
         <strong>Technical Artist & Audio Engineer</strong> | Oct 2025 - Dec 2025
         <br/>REFLECTION is a first-person horror puzzle game where players navigate between two overlapping realities. Developed in six weeks for CSCI 4168 at Dalhousie University.
@@ -48,10 +69,23 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="REFLECTION Gameplay" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="REFLECTION Environment" />
+        <video class="pc-screenshot" autoplay loop muted playsinline>
+        <source src="/img/Reflection/Enemy1.mp4" type="video/mp4" />
+    </video>
+
+    </div>
+
+
+    <div class="paragraph center">
+    
+    <img class="pc-screenshot" src="/img/Reflection/Picture6.png" alt="REFLECTION Environment" />
+    <img class="pc-screenshot" src="/img/Reflection/Picture2.png" alt="REFLECTION Environment" />
+    <img class="pc-screenshot" src="/img/Reflection/Picture3.png" alt="REFLECTION Environment" />
+    <img class="pc-screenshot" src="/img/Reflection/Picture4.png" alt="REFLECTION Environment" />
     </div>
     `, "#5a78af"),
+
+   
 
     new ProjectData("dpl-studios", "DPL Studios", "img/projects/dpl-icon.png", `
     <div class="paragraph">
