@@ -2,7 +2,7 @@ import ProjectData from '@/data/ProjectData.ts'
 
 export default [
     
-    new ProjectData("ggj-launcher", "Global Game Jam Launcher", "img/gjj/1.jpg", 
+    new ProjectData("ggj-launcher", "Global Game Jam Launcher", "img/gjj/1.JPG", 
     `
     <div class="paragraph">
      <strong>Development Director</strong> | Oct 2025 - Dec 2025
