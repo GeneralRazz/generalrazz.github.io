@@ -36,6 +36,7 @@ export default [
     <img class="pc-screenshot" src="/img/Collect/2.PNG" alt="About Us" />
     <img class="pc-screenshot" src="/img/Collect/3.PNG" alt="Profile" />
     <img class="pc-screenshot" src="/img/Collect/4.PNG" alt="Feed" />
+    <img class="pc-screenshot" src="/img/Collect/Mockup1.jpg" alt="Mockup" />
     
     </div>
         `, "#3FA770", true),
