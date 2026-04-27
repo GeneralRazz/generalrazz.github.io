@@ -32,10 +32,9 @@ export default [
     </div>
     <div class="paragraph center">
     
-    <img class="pc-screenshot" src="/img/gjj/1.jpg" alt="Main Menu" />
+    <img class="pc-screenshot" src="/img/gjj/1.JPG" alt="Main Menu" />
     
     </div>
-    
     <div class="paragraph center">
         <video class="pc-screenshot" autoplay loop muted playsinline>
         <source src="/img/gjj/1.mp4" type="video/mp4" />

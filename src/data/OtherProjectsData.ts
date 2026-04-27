@@ -31,11 +31,11 @@ export default [
 
     </div>
          <div class="paragraph center">
-    <img class="pc-screenshot" src="/img/Collect/icon.png" alt="Signin" />
-    <img class="pc-screenshot" src="/img/Collect/1.png" alt="Dashboard" />
-    <img class="pc-screenshot" src="/img/Collect/2.png" alt="About Us" />
-    <img class="pc-screenshot" src="/img/Collect/3.png" alt="Profile" />
-    <img class="pc-screenshot" src="/img/Collect/4.png" alt="Feed" />
+    <img class="pc-screenshot" src="/img/Collect/icon.PNG" alt="Signin" />
+    <img class="pc-screenshot" src="/img/Collect/1.PNG" alt="Dashboard" />
+    <img class="pc-screenshot" src="/img/Collect/2.PNG" alt="About Us" />
+    <img class="pc-screenshot" src="/img/Collect/3.PNG" alt="Profile" />
+    <img class="pc-screenshot" src="/img/Collect/4.PNG" alt="Feed" />
     
     </div>
         `, "#3FA770", true),
