@@ -1,7 +1,7 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-     new ProjectData("collect", "Collect", "/img/Collect/icon.png", `
+     new ProjectData("collect", "Collect", "/img/Collect/icon.PNG", `
         <div class="paragraph">
             <strong>Full Stack Developer & Designer</strong>
             <br/>Collect is a social mobile app that enables users to discover and share projects through rich media content. Built with a focus on smooth user experience and scalable cloud infrastructure.
